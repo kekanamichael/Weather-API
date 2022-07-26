@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+
+}
+body{
+  background-image: url('./files/pexels-vladyslav-dushenkovsky-4100130.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.mainwrapper{
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+.wrapper{
+  margin-top: 100px;
+  color: white;
+  /* text-align: left; */
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 60%;
+  font-size: 24px;
+  border-bottom: 1px solid orangered;
+  display: flex;
+  flex-wrap: wrap;
+}
+.city{
+    text-align: start;
+    margin-left: 100px;
+    
+}
+.line{
+  border: 1px solid orangered;
+  width: 40%;
+  justify-content: end;
+}
+.sec{
+  display: flex;
+  margin-left: 500px;
+  flex-wrap: wrap;
+}
+.secdiv{
+  text-align: start;
+  margin-left: 50px;
+  flex-wrap: wrap;
+
+}
+span{
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 100;
+}
+input{
+  padding: 10px;
+  margin-top: 20px;
+  width: 27%;
+  font-size: 20px;
+}
+input::placeholder{
+  font-size: 20px;
+}
+.temp{
+  margin-bottom: 100px;
+}
+.date{
+  font-size: 14px;
+}
